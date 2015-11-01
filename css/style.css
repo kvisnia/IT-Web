@@ -1,0 +1,8 @@
+.login-button{
+    float:right;
+}
+
+.timeline-main-panel {
+    height: 550px;
+    overflow-y: scroll;
+}
