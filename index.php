@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.9/css/dataTables.bootstrap.min.css" media="screen">
     <script src="js/menu.js"></script>
     <script src="js/menu.js"></script>
-<!--Git test -->
+<!--Git test sadsdadsadsasaddas -->
   </head>
   <body onload="loadpage('#home')">
     <?PHP include("./pages/panels/menu.php"); ?>
