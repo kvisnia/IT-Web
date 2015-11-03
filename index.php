@@ -8,15 +8,47 @@
     <link rel="stylesheet" href="css/timeline.css" media="screen">
     <link rel="stylesheet" href="css/style.css" media="screen">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.9/css/dataTables.bootstrap.min.css" media="screen">
-    <script src="js/menu.js"></script>
-    <script src="js/menu.js"></script>
-<!--Git test  -->
+
+
+  <!--  <script src="js/menu.js"></script>
+    <script src="js/cal.js"></script>-->
   </head>
+
+
+<?PHP require("phpscripts/progfunc.php"); ?>
+<?PHP require("phpscripts/func.php"); ?>
   <body onload="loadpage('#home')">
     <?PHP include("./pages/panels/menu.php"); ?>
 
     <div class="container" id="container">
+      <?PHP
+         if(isset($_GET['c']) && !empty($_GET['c']))
 
+          {
+
+            if(file_exists(realpath('pages/')."/".$_GET['c'].".php"))
+
+            {
+
+              include(realpath('pages/')."/".$_GET['c'].".php");
+
+            }
+
+            else {
+
+              include(realpath('pages/').'/home.php');
+
+            }
+
+          } else
+
+          {
+
+            include(realpath('./pages/').'/home.php');
+
+          }
+
+          ?>
     </div>
 
 
