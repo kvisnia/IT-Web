@@ -11,15 +11,15 @@
     </div>
 
   <div class="collapse navbar-collapse navbar-side"navbar-side>
-    <ul class="nav navbar-nav">
+  <ul class="nav navbar-nav">
     <li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="index.php?c=prog"><i class="fa fa-calendar-check-o "></i> Πρόγραμμα <b class="caret"></b></a>
           <ul class="dropdown-menu">
-            <li><a href="index.php?c=prog&pm=main"><i class="fa fa-calendar"></i> Ανά εξάμηνο</a></li>
-            <li><a href="#"><i class="fa fa-male"></i>&nbsp;Ανά καθηγητή</a></li>
-            <li><a href="#"><i class="fa fa-university"></i> Ανά αίθουσα</a></li>
+            <li><a href="index.php?c=prog&pm=main"><i class="fa fa-calendar fa-fw"></i>&nbsp; Ανά εξάμηνο</a></li>
+            <li><a href="#"><i class="fa fa-male fa-fw"></i>&nbsp; Ανά καθηγητή</a></li>
+            <li><a href="#"><i class="fa fa-university fa-fw"></i>&nbsp; Ανά αίθουσα</a></li>
           </ul>
-      </li>
+    </li>
     <li><a href="index.php?c=prog" ><i class="fa fa fa-book" ></i> Μαθήματα</a></li>
     <li><a href="index.php?c=contact"><i class="fa fa-bullhorn "></i> Ανακοινώσεις</a></li>
     <li><a href="#"><i class="fa fa-male "></i> Καθηγητές</a></li>

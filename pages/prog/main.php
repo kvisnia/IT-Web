@@ -9,39 +9,39 @@
 <div class="tab-content">
   <div class="tab-pane active" id="panel-806771">
     <div class="row">
-      <div class="col-md-2">
+      <div class="col-lg-2 col-md-4  col-sm-6">
         <?php monday(); ?>
       </div>
-      <div class="col-md-2">
+      <div class="col-lg-2 col-md-4 col-sm-6">
         <?php monday(); ?>
       </div>
-      <div class="col-md-2">
+      <div class="col-lg-2 col-md-4 col-sm-6">
         <?php monday(); ?>
       </div>
-      <div class="col-md-2">
+      <div class="col-lg-2 col-md-4 col-sm-6">
         <?php monday(); ?>
       </div>
-      <div class="col-md-2">
+      <div class="col-lg-2 col-md-4 col-sm-6">
         <?php monday(); ?>
       </div>
-      <div class="col-md-2">
+      <div class="col-lg-2 col-md-4 col-sm-6">
         <?php monday(); ?>
       </div>
     </div>
   </div>
   <div class="tab-pane" id="panel-993226">
     <div class="row">
-      <div class="col-md-2">
+      <div class="col-lg-2">
       </div>
-      <div class="col-md-2">
+      <div class="col-lg-2">
       </div>
-      <div class="col-md-2">
+      <div class="col-lg-2">
       </div>
-      <div class="col-md-2">
+      <div class="col-lg-2">
       </div>
-      <div class="col-md-2">
+      <div class="col-lg-2">
       </div>
-      <div class="col-md-2">
+      <div class="col-lg-2">
       </div>
     </div>
   </div>
