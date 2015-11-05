@@ -6,3 +6,43 @@
     height: 550px;
     overflow-y: scroll;
 }
+
+#coltime{
+
+  font-size: 0.9em;
+  vertical-align: middle;
+  color: red;
+  width: 40px; !important
+}
+
+#lab1{
+  color: #3a822c;
+}
+
+#lab2{
+  color: #2c6b82;
+}
+#lab3{
+  color: #9850be;
+}
+#lab4{
+  color: #222fc7;
+}
+#lab5{
+  color: #c6cc14;
+}
+#lab6{
+  color: #bf2222;
+}
+#lab7{
+  color: #a77d14;
+}
+#lab8{
+  color: #14cc6a;
+}
+#lab9{
+  color: #7914cc;
+}
+#lab10{
+  color: #5014cc;
+}

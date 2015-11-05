@@ -1,29 +1,32 @@
 <ul class="nav nav-tabs">
   <li class="active">
-    <a href="#panel-806771" data-toggle="tab">Section 1</a>
+    <a href="#panel-806771" data-toggle="tab">Α εξάμηνο</a>
   </li>
   <li>
-    <a href="#panel-993226" data-toggle="tab">Section 2</a>
+    <a href="#panel-993226" data-toggle="tab">Β εξάμηνο</a>
+  </li>
+  <li>
+    <a href="#panel-993226" data-toggle="tab">Γ εξάμηνο</a>
+  </li>
+  <li>
+    <a href="#panel-993226" data-toggle="tab">Δ εξάμηνο</a>
+  </li>
+  <li>
+    <a href="#panel-993226" data-toggle="tab">Ε εξάμηνο</a>
+  </li>
+  <li>
+    <a href="#panel-993226" data-toggle="tab">ΣΤ εξάμηνο</a>
+  </li>
+  <li>
+    <a href="#panel-993226" data-toggle="tab">Ζ εξάμηνο</a>
   </li>
 </ul>
 <div class="tab-content ">
   <div class="tab-pane active" id="panel-806771">
     <div class="container-fluid">
-    <div class="row">
-      <div class="col-lg-2 col-md-4  col-sm-6">
-        <?php monday(); ?>
-      </div>
-      <div class="col-lg-2 col-md-4 col-sm-6">
-        <?php monday(); ?>
-      </div>
-      <div class="col-lg-2 col-md-4 col-sm-6">
-        <?php monday(); ?>
-      </div>
-      <div class="col-lg-2 col-md-4 col-sm-6">
-        <?php monday(); ?>
-      </div>
-      <div class="col-lg-2 col-md-4 col-sm-6">
-        <?php monday(); ?>
+    <div class="row ">
+      <div class="col-xl-12 col-lg-12 col-md-4  col-sm-6">
+        <?php firstsem(); ?>
       </div>
     </div>
   </div>

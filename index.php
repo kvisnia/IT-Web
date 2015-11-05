@@ -14,7 +14,7 @@
 
 <?PHP require("phpscripts/progfunc.php"); ?>
 <?PHP require("phpscripts/func.php"); ?>
-  <body onload="loadpage('#home')">
+  <body>
     <?PHP include("./pages/panels/menu.php"); ?>
 
     <div class="container" id="container">
