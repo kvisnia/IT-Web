@@ -12,7 +12,8 @@ echo '
   </thead>
   <tbody>
     <tr>
-      <td>cell is row 0, column 0</td>
+    
+      <td>cell is row 0, column 0<br><hr>cell is row 0, column 0</td>
     </tr>
     <tr>
       <td>cell is row 1, column 0</td>
