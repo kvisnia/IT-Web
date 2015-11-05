@@ -24,9 +24,6 @@
       <div class="col-lg-2 col-md-4 col-sm-6">
         <?php monday(); ?>
       </div>
-      <div class="col-lg-2 col-md-4 col-sm-6">
-        <?php monday(); ?>
-      </div>
     </div>
   </div>
   <div class="tab-pane" id="panel-993226">
