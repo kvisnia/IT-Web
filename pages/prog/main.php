@@ -3,19 +3,19 @@
     <a href="#panel-806771" data-toggle="tab">Α εξάμηνο</a>
   </li>
   <li>
-    <a href="#panel-993226" data-toggle="tab">Β εξάμηνο</a>
+    <a href="#panel-993226" data-toggle="tab" class="btn disabled">Β εξάμηνο</a>
   </li>
   <li>
     <a href="#panel-993226" data-toggle="tab">Γ εξάμηνο</a>
   </li>
   <li>
-    <a href="#panel-993226" data-toggle="tab">Δ εξάμηνο</a>
+    <a href="#panel-993226" data-toggle="tab" class="btn disabled">Δ εξάμηνο</a>
   </li>
   <li>
     <a href="#panel-993226" data-toggle="tab">Ε εξάμηνο</a>
   </li>
   <li>
-    <a href="#panel-993226" data-toggle="tab">ΣΤ εξάμηνο</a>
+    <a href="#panel-993226" data-toggle="tab" class="btn disabled">ΣΤ εξάμηνο</a>
   </li>
   <li>
     <a href="#panel-993226" data-toggle="tab">Ζ εξάμηνο</a>
