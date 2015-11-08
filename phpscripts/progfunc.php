@@ -549,28 +549,64 @@ function getcour($id){
               <td></td>
         </tr>
         <tr>
-              <td id="coltime">14:00-15:00</td>
+              <td id="coltime" rowspan="2">14:00-15:00</td>
+              <td id="lab8"><i class="fa fa-flask fa-fw"></i> <b id="lab8">T8</b><br><i class="fa fa-university fa-fw" ></i> 210<br><span class="hidden-xs"><i class="fa fa-male fa-fw" ></i> Γιακουστίδης</span></td>
               <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td><i class="fa fa-book fa-fw"></i> <b id="">Θ1</b><br><i class="fa fa-university fa-fw" ></i> AΜΦ<br><span class="hidden-xs"><i class="fa fa-male fa-fw  " ></i> Σιάκα</span></td>
-        </tr>
-        <tr>
-              <td id="coltime">15:00-16:00</td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <td id="lab5"><i class="fa fa-flask fa-fw"></i> <b id="lab5">T5</b><br><i class="fa fa-university fa-fw" ></i> 301<br><span class="hidden-xs"><i class="fa fa-male fa-fw" ></i> Γιακουστίδης</span></td>
               <td></td>
               <td><i class="fa fa-book fa-fw"></i> <b id="">Θ1</b><br><i class="fa fa-university fa-fw" ></i> AΜΦ<br><span class="hidden-xs"><i class="fa fa-male fa-fw  " ></i> Σιάκα</span></td>
         </tr>
         <tr>
-              <td id="coltime">16:00-17:00</td>
+          <td id="noborderup"></td>
+          <td id="noborderup"></td>
+          <td id="lab2" class="noborderup"><i class="fa fa-flask fa-fw"></i> <b id="lab2">T2</b><br><i class="fa fa-university fa-fw" ></i> 301<br><span class="hidden-xs"><i class="fa fa-male fa-fw" ></i> Γιακουστίδης</span></td>
+          <td id="noborderup"></td>
+          <td id="noborderup"></td>
+        </tr>
+        <tr>
+              <td id="coltime" rowspan="2">15:00-16:00</td>
+              <td id="lab8"><i class="fa fa-flask fa-fw"></i> <b id="lab8">T8</b><br><i class="fa fa-university fa-fw" ></i> 210<br><span class="hidden-xs"><i class="fa fa-male fa-fw" ></i> Γιακουστίδης</span></td>
               <td></td>
-              <td></td>
-              <td></td>
+              <td id="lab5"><i class="fa fa-flask fa-fw"></i> <b id="lab5">T5</b><br><i class="fa fa-university fa-fw" ></i> 301<br><span class="hidden-xs"><i class="fa fa-male fa-fw" ></i> Γιακουστίδης</span></td>
               <td></td>
               <td><i class="fa fa-book fa-fw"></i> <b id="">Θ1</b><br><i class="fa fa-university fa-fw" ></i> AΜΦ<br><span class="hidden-xs"><i class="fa fa-male fa-fw  " ></i> Σιάκα</span></td>
+        </tr>
+        <tr>
+          <td id="noborderup"></td>
+          <td id="noborderup"></td>
+          <td id="lab2" class="noborderup"><i class="fa fa-flask fa-fw"></i> <b id="lab2">T2</b><br><i class="fa fa-university fa-fw" ></i> 301<br><span class="hidden-xs"><i class="fa fa-male fa-fw" ></i> Γιακουστίδης</span></td>
+          <td id="noborderup"></td>
+          <td id="noborderup"></td>
+        </tr>
+        <tr>
+              <td id="coltime" rowspan="2">16:00-17:00</td>
+              <td id="lab6"><i class="fa fa-flask fa-fw"></i> <b id="lab6">T6</b><br><i class="fa fa-university fa-fw" ></i> 201<br><span class="hidden-xs"><i class="fa fa-male fa-fw" ></i> Γιακουστίδης</span></td>
+              <td></td>
+              <td id="lab3"><i class="fa fa-flask fa-fw"></i> <b id="lab3">T3</b><br><i class="fa fa-university fa-fw" ></i> 210<br><span class="hidden-xs"><i class="fa fa-male fa-fw" ></i> Σιάκα</span></td>
+              <td></td>
+              <td><i class="fa fa-book fa-fw"></i> <b id="">Θ1</b><br><i class="fa fa-university fa-fw" ></i> AΜΦ<br><span class="hidden-xs"><i class="fa fa-male fa-fw  " ></i> Σιάκα</span></td>
+        </tr>
+        <tr>
+          <td id="noborderup"></td>
+          <td id="noborderup"></td>
+          <td id="lab4" class="noborderup"><i class="fa fa-flask fa-fw"></i> <b id="lab4">T4</b><br><i class="fa fa-university fa-fw" ></i> 211<br><span class="hidden-xs"><i class="fa fa-male fa-fw" ></i> Γιακουστίδης</span></td>
+          <td id="noborderup"></td>
+          <td id="noborderup"></td>
+        </tr>
+        <tr>
+              <td id="coltime" rowspan="2">17:00-18:00</td>
+              <td id="lab6"><i class="fa fa-flask fa-fw"></i> <b id="lab6">T6</b><br><i class="fa fa-university fa-fw" ></i> 201<br><span class="hidden-xs"><i class="fa fa-male fa-fw" ></i> Γιακουστίδης</span></td>
+              <td></td>
+              <td id="lab3"><i class="fa fa-flask fa-fw"></i> <b id="lab3">T3</b><br><i class="fa fa-university fa-fw" ></i> 210<br><span class="hidden-xs"><i class="fa fa-male fa-fw" ></i> Σιάκα</span></td>
+              <td></td>
+              <td><i class="fa fa-book fa-fw"></i> <b id="">Θ1</b><br><i class="fa fa-university fa-fw" ></i> AΜΦ<br><span class="hidden-xs"><i class="fa fa-male fa-fw  " ></i> Σιάκα</span></td>
+        </tr>
+        <tr>
+          <td id="noborderup"></td>
+          <td id="noborderup"></td>
+          <td id="lab4" class="noborderup"><i class="fa fa-flask fa-fw"></i> <b id="lab4">T4</b><br><i class="fa fa-university fa-fw" ></i> 211<br><span class="hidden-xs"><i class="fa fa-male fa-fw" ></i> Γιακουστίδης</span></td>
+          <td id="noborderup"></td>
+          <td id="noborderup"></td>
         </tr>
     </tbody>
     </table>
