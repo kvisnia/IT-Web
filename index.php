@@ -8,14 +8,13 @@
     <link rel="stylesheet" href="css/timeline.css" media="screen">
     <link rel="stylesheet" href="css/style.css" media="screen">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.9/css/dataTables.bootstrap.min.css" media="screen">
-  <!--  <script src="js/menu.js"></script>
-    <script src="js/cal.js"></script>-->
   </head>
 
 <?PHP require("phpscripts/progfunc.php"); ?>
 <?PHP require("phpscripts/func.php"); ?>
+
   <body>
-    <?PHP include("./pages/panels/menu.php"); ?>
+  <?PHP include("./pages/panels/menu.php"); ?>
 
     <div class="container" id="container">
       <?PHP
