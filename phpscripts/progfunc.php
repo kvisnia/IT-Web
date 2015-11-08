@@ -7,12 +7,12 @@ echo '
 <table class="table hidden-xs" >
   <thead>
     <tr>
-      <th>Ώρες</th>
-      <th>Δευτέρα</th>
-      <th>Τρίτη</th>
-      <th>Τετάρτη</th>
-      <th>Πέμπτη</th>
-      <th>Παρασκευή</th>
+      <th><i class="fa fa-clock-o hidden-lg hidden-md hidden-xl"></i> <span class="hidden-xs hidden-sm">Ώρες</span></th>
+    <th><span class="hidden-lg hidden-md hidden-xl">Δ</span> <span class="hidden-xs hidden-sm">Δευτέρα</span></th>
+      <th><span class="hidden-lg hidden-md hidden-xl">Τ</span> <span class="hidden-xs hidden-sm">Τρίτη</span></th>
+      <th><span class="hidden-lg hidden-md hidden-xl">Τ</span> <span class="hidden-xs hidden-sm">Τετάρτη</span></th>
+      <th><span class="hidden-lg hidden-md hidden-xl">Π</span> <span class="hidden-xs hidden-sm">Πέμπτη</span></th>
+      <th><span class="hidden-lg hidden-md hidden-xl">Π</span> <span class="hidden-xs hidden-sm">Παρασκευή</span></th>
     </tr>
   </thead>
   <tbody>
@@ -140,12 +140,12 @@ function getcour($id){
     <table class="table" >
       <thead>
         <tr>
-          <th>Ώρες</th>
-          <th>Δευτέρα</th>
-          <th>Τρίτη</th>
-          <th>Τετάρτη</th>
-          <th>Πέμπτη</th>
-          <th>Παρασκευή</th>
+          <th><i class="fa fa-clock-o hidden-lg hidden-md hidden-xl"></i> <span class="hidden-xs hidden-sm">Ώρες</span></th>
+        <th><span class="hidden-lg hidden-md hidden-xl">Δ</span> <span class="hidden-xs hidden-sm">Δευτέρα</span></th>
+          <th><span class="hidden-lg hidden-md hidden-xl">Τ</span> <span class="hidden-xs hidden-sm">Τρίτη</span></th>
+          <th><span class="hidden-lg hidden-md hidden-xl">Τ</span> <span class="hidden-xs hidden-sm">Τετάρτη</span></th>
+          <th><span class="hidden-lg hidden-md hidden-xl">Π</span> <span class="hidden-xs hidden-sm">Πέμπτη</span></th>
+          <th><span class="hidden-lg hidden-md hidden-xl">Π</span> <span class="hidden-xs hidden-sm">Παρασκευή</span></th>
         </tr>
       </thead>
       <tbody>
@@ -245,12 +245,12 @@ function getcour($id){
     <table class="table" >
       <thead>
         <tr>
-          <th>Ώρες</th>
-          <th>Δευτέρα</th>
-          <th>Τρίτη</th>
-          <th>Τετάρτη</th>
-          <th>Πέμπτη</th>
-          <th>Παρασκευή</th>
+          <th><i class="fa fa-clock-o hidden-lg hidden-md hidden-xl"></i> <span class="hidden-xs hidden-sm">Ώρες</span></th>
+        <th><span class="hidden-lg hidden-md hidden-xl">Δ</span> <span class="hidden-xs hidden-sm">Δευτέρα</span></th>
+          <th><span class="hidden-lg hidden-md hidden-xl">Τ</span> <span class="hidden-xs hidden-sm">Τρίτη</span></th>
+          <th><span class="hidden-lg hidden-md hidden-xl">Τ</span> <span class="hidden-xs hidden-sm">Τετάρτη</span></th>
+          <th><span class="hidden-lg hidden-md hidden-xl">Π</span> <span class="hidden-xs hidden-sm">Πέμπτη</span></th>
+          <th><span class="hidden-lg hidden-md hidden-xl">Π</span> <span class="hidden-xs hidden-sm">Παρασκευή</span></th>
         </tr>
       </thead>
       <tbody>
@@ -309,54 +309,275 @@ function getcour($id){
               <td id=""></td>
         </tr>
         <tr>
-              <td id="coltime" rowspan="2">14:00-15:00</td>
+              <td id="coltime" rowspan="3">14:00-15:00</td>
               <td id=""></td>
-              <td id=""></td>
-              <td id="lab4"><i class="fa fa-flask fa-fw"></i> <b id="lab4">T4</b><br><i class="fa fa-university fa-fw" ></i> 201<br><span class="hidden-xs"><i class="fa fa-male fa-fw" ></i> Ηλιούδης</span></td>
-              <td id="lab5"><i class="fa fa-flask fa-fw"></i> <b id="lab5">T5</b><br><i class="fa fa-university fa-fw" ></i> 201<br><span class="hidden-xs"><i class="fa fa-male fa-fw" ></i> Βίτσας</span></td>
-              <td id=""></td>
-        </tr>
-        <tr>
-          <td id="noborderup"></td>
-          <td id="noborderup"></td>
-          <td id="lab3" class="noborderup"><i class="fa fa-flask fa-fw"></i> <b id="lab3">T3</b><br><i class="fa fa-university fa-fw" ></i> 202<br><span class="hidden-xs"><i class="fa fa-male fa-fw" ></i> Αντωνίου</span></td>
-          <td id="noborderup"></td>
-          <td id="noborderup"></td>
-        </tr>
-        <tr>
-              <td id="coltime" rowspan="2">15:00-16:00</td>
-              <td id=""></td>
-              <td id=""></td>
-              <td id="lab4"><i class="fa fa-flask fa-fw"></i> <b id="lab4">T4</b><br><i class="fa fa-university fa-fw" ></i> 201<br><span class="hidden-xs"><i class="fa fa-male fa-fw" ></i> Ηλιούδης</span></td>
-              <td id="lab5"><i class="fa fa-flask fa-fw"></i> <b id="lab5">T5</b><br><i class="fa fa-university fa-fw" ></i> 201<br><span class="hidden-xs"><i class="fa fa-male fa-fw" ></i> Βίτσας</span></td>
-              <td id=""></td>
-        </tr>
-        <tr>
-          <td id="noborderup"></td>
-          <td id="noborderup"></td>
-          <td id="lab3" class="noborderup"><i class="fa fa-flask fa-fw"></i> <b id="lab3">T3</b><br><i class="fa fa-university fa-fw" ></i> 202<br><span class="hidden-xs"><i class="fa fa-male fa-fw" ></i> Αντωνίου</span></td>
-          <td id="noborderup"></td>
-          <td id="noborderup"></td>
-        </tr>
-        <tr>
-              <td id="coltime">16:00-17:00</td>
-              <td id="lab1"><i class="fa fa-flask fa-fw"></i> <b id="lab1">T1</b><br><i class="fa fa-university fa-fw" ></i> 210<br><span class="hidden-xs"><i class="fa fa-male fa-fw" ></i> Αντωνίου</span></td>
-              <td id=""></td>
+              <td id="lab5"><i class="fa fa-flask fa-fw"></i> <b id="lab5">T5</b><br><i class="fa fa-university fa-fw" ></i> 301<br><span class="hidden-xs"><i class="fa fa-male fa-fw" ></i> Σφέτσος</span></td>
               <td id=""></td>
               <td id=""></td>
               <td id=""></td>
         </tr>
         <tr>
-              <td id="coltime">17:00-18:00</td>
-              <td id="lab1"><i class="fa fa-flask fa-fw"></i> <b id="lab1">T1</b><br><i class="fa fa-university fa-fw" ></i> 210<br><span class="hidden-xs"><i class="fa fa-male fa-fw" ></i> Αντωνίου</span></td>
+          <td id="noborderup"></td>
+          <td id="lab7" class="noborderup"><i class="fa fa-flask fa-fw"></i> <b id="lab7">T7</b><br><i class="fa fa-university fa-fw" ></i> 210<br><span class="hidden-xs"><i class="fa fa-male fa-fw" ></i> Ουγιάρογλου</span></td>
+          <td id="noborderup"></td>
+          <td id="noborderup"></td>
+          <td id="noborderup"></td>
+        </tr>
+        <tr>
+          <td id="noborderup"></td>
+          <td id="lab2" class="noborderup"><i class="fa fa-flask fa-fw"></i> <b id="lab2">T2</b><br><i class="fa fa-university fa-fw" ></i> 211<br><span class="hidden-xs"><i class="fa fa-male fa-fw" ></i> Γιακουστίδης</span></td>
+          <td id="noborderup"></td>
+          <td id="noborderup"></td>
+          <td id="noborderup"></td>
+        </tr>
+        <tr>
+              <td id="coltime" rowspan="3">15:00-16:00</td>
+              <td id=""></td>
+              <td id="lab5"><i class="fa fa-flask fa-fw"></i> <b id="lab5">T5</b><br><i class="fa fa-university fa-fw" ></i> 301<br><span class="hidden-xs"><i class="fa fa-male fa-fw" ></i> Σφέτσος</span></td>
               <td id=""></td>
               <td id=""></td>
               <td id=""></td>
+        </tr>
+        <tr>
+          <td id="noborderup"></td>
+          <td id="lab7" class="noborderup"><i class="fa fa-flask fa-fw"></i> <b id="lab7">T7</b><br><i class="fa fa-university fa-fw" ></i> 210<br><span class="hidden-xs"><i class="fa fa-male fa-fw" ></i> Ουγιάρογλου</span></td>
+          <td id="noborderup"></td>
+          <td id="noborderup"></td>
+          <td id="noborderup"></td>
+        </tr>
+        <tr>
+          <td id="noborderup"></td>
+          <td id="lab2" class="noborderup"><i class="fa fa-flask fa-fw"></i> <b id="lab2">T2</b><br><i class="fa fa-university fa-fw" ></i> 211<br><span class="hidden-xs"><i class="fa fa-male fa-fw" ></i> Γιακουστίδης</span></td>
+          <td id="noborderup"></td>
+          <td id="noborderup"></td>
+          <td id="noborderup"></td>
+        </tr>
+        <tr>
+              <td id="coltime" rowspan="2">16:00-17:00</td>
               <td id=""></td>
+              <td id="lab8"><i class="fa fa-flask fa-fw"></i> <b id="lab8">T8</b><br><i class="fa fa-university fa-fw" ></i> 210<br><span class="hidden-xs"><i class="fa fa-male fa-fw" ></i> Γιακουστίδης</span></td>
+              <td id=""></td>
+              <td id=""></td>
+              <td id=""></td>
+        </tr>
+        <tr>
+          <td id="noborderup"></td>
+          <td id="lab9" class="noborderup"><i class="fa fa-flask fa-fw"></i> <b id="lab9">T9</b><br><i class="fa fa-university fa-fw" ></i> 202<br><span class="hidden-xs"><i class="fa fa-male fa-fw" ></i> Ουγιάρογλου</span></td>
+          <td id="noborderup"></td>
+          <td id="noborderup"></td>
+          <td id="noborderup"></td>
+        </tr>
+        <tr>
+              <td id="coltime" rowspan="2">17:00-18:00</td>
+              <td id=""></td>
+              <td id="lab8"><i class="fa fa-flask fa-fw"></i> <b id="lab8">T8</b><br><i class="fa fa-university fa-fw" ></i> 210<br><span class="hidden-xs"><i class="fa fa-male fa-fw" ></i> Γιακουστίδης</span></td>
+              <td id=""></td>
+              <td id=""></td>
+              <td id=""></td>
+        </tr>
+        <tr>
+          <td id="noborderup"></td>
+          <td id="lab9" class="noborderup"><i class="fa fa-flask fa-fw"></i> <b id="lab9">T9</b><br><i class="fa fa-university fa-fw" ></i> 202<br><span class="hidden-xs"><i class="fa fa-male fa-fw" ></i> Ουγιάρογλου</span></td>
+          <td id="noborderup"></td>
+          <td id="noborderup"></td>
+          <td id="noborderup"></td>
         </tr>
     </tbody>
     </table>
     ';
+  }
+  elseif($id==5103){
+    echo'
+    <table class="table" >
+      <thead>
+        <tr>
+          <th><i class="fa fa-clock-o hidden-lg hidden-md hidden-xl"></i> <span class="hidden-xs hidden-sm">Ώρες</span></th>
+        <th><span class="hidden-lg hidden-md hidden-xl">Δ</span> <span class="hidden-xs hidden-sm">Δευτέρα</span></th>
+          <th><span class="hidden-lg hidden-md hidden-xl">Τ</span> <span class="hidden-xs hidden-sm">Τρίτη</span></th>
+          <th><span class="hidden-lg hidden-md hidden-xl">Τ</span> <span class="hidden-xs hidden-sm">Τετάρτη</span></th>
+          <th><span class="hidden-lg hidden-md hidden-xl">Π</span> <span class="hidden-xs hidden-sm">Πέμπτη</span></th>
+          <th><span class="hidden-lg hidden-md hidden-xl">Π</span> <span class="hidden-xs hidden-sm">Παρασκευή</span></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+              <td id="coltime">09:00-10:00</td>
+              <td><i class="fa fa-book fa-fw"></i> <b id="">Θ1</b><br><i class="fa fa-university fa-fw" ></i> AΜΦ<br><span class="hidden-xs"><i class="fa fa-male fa-fw  " ></i> Κλεφτούρης</span></td>
+              <td></td>
+              <td></td>
+              <td><i class="fa fa-book fa-fw"></i> <b id="">Θ1</b><br><i class="fa fa-university fa-fw" ></i> AΜΦ<br><span class="hidden-xs"><i class="fa fa-male fa-fw  " ></i> Κλεφτούρης</span></td>
+              <td></td>
+        </tr>
+        <tr>
+              <td id="coltime">10:00-11:00</td>
+              <td><i class="fa fa-book fa-fw"></i> <b id="">Θ1</b><br><i class="fa fa-university fa-fw" ></i> AΜΦ<br><span class="hidden-xs"><i class="fa fa-male fa-fw  " ></i> Κλεφτούρης</span></td>
+              <td></td>
+              <td></td>
+              <td><i class="fa fa-book fa-fw"></i> <b id="">Θ1</b><br><i class="fa fa-university fa-fw" ></i> AΜΦ<br><span class="hidden-xs"><i class="fa fa-male fa-fw  " ></i> Κλεφτούρης</span></td>
+              <td></td>
+        </tr>
+    </tbody>
+    </table>
+    ';
+  }
+  elseif($id==5104){
+    echo'
+    <table class="table" >
+      <thead>
+        <tr>
+          <th><i class="fa fa-clock-o hidden-lg hidden-md hidden-xl"></i> <span class="hidden-xs hidden-sm">Ώρες</span></th>
+        <th><span class="hidden-lg hidden-md hidden-xl">Δ</span> <span class="hidden-xs hidden-sm">Δευτέρα</span></th>
+          <th><span class="hidden-lg hidden-md hidden-xl">Τ</span> <span class="hidden-xs hidden-sm">Τρίτη</span></th>
+          <th><span class="hidden-lg hidden-md hidden-xl">Τ</span> <span class="hidden-xs hidden-sm">Τετάρτη</span></th>
+          <th><span class="hidden-lg hidden-md hidden-xl">Π</span> <span class="hidden-xs hidden-sm">Πέμπτη</span></th>
+          <th><span class="hidden-lg hidden-md hidden-xl">Π</span> <span class="hidden-xs hidden-sm">Παρασκευή</span></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+              <td id="coltime">09:00-10:00</td>
+              <td></td>
+              <td></td>
+              <td><i class="fa fa-book fa-fw"></i> <b id="">Θ1</b><br><i class="fa fa-university fa-fw" ></i> AΜΦ<br><span class="hidden-xs"><i class="fa fa-male fa-fw  " ></i> Αντωνίου</span></td>
+              <td></td>
+              <td></td>
+        </tr>
+        <tr>
+              <td id="coltime">10:00-11:00</td>
+              <td></td>
+              <td></td>
+              <td><i class="fa fa-book fa-fw"></i> <b id="">Θ1</b><br><i class="fa fa-university fa-fw" ></i> AΜΦ<br><span class="hidden-xs"><i class="fa fa-male fa-fw  " ></i> Αντωνίου</span></td>
+              <td></td>
+              <td></td>
+        </tr>
+        <tr>
+              <td id="coltime">11:00-12:00</td>
+              <td></td>
+              <td></td>
+              <td><i class="fa fa-book fa-fw"></i> <b id="">Θ1</b><br><i class="fa fa-university fa-fw" ></i> AΜΦ<br><span class="hidden-xs"><i class="fa fa-male fa-fw  " ></i> Αντωνίου</span></td>
+              <td></td>
+              <td></td>
+        </tr>
+        <tr>
+              <td id="coltime">12:00-13:00</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+        </tr>
+        <tr>
+              <td id="coltime">13:00-14:00</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+        </tr>
+        <tr>
+              <td id="coltime">14:00-15:00</td>
+              <td><i class="fa fa-book fa-fw"></i> <b id="">Θ1</b><br><i class="fa fa-university fa-fw" ></i> AΜΦ<br><span class="hidden-xs"><i class="fa fa-male fa-fw  " ></i> Αντωνίου</span></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+        </tr>
+        <tr>
+              <td id="coltime">15:00-16:00</td>
+              <td><i class="fa fa-book fa-fw"></i> <b id="">Θ1</b><br><i class="fa fa-university fa-fw" ></i> AΜΦ<br><span class="hidden-xs"><i class="fa fa-male fa-fw  " ></i> Αντωνίου</span></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+        </tr>
+    </tbody>
+    </table>
+    ';
+  }
+  elseif($id==5105){
+    echo'
+    <table class="table" >
+      <thead>
+        <tr>
+          <th><i class="fa fa-clock-o hidden-lg hidden-md hidden-xl"></i> <span class="hidden-xs hidden-sm">Ώρες</span></th>
+          <th><span class="hidden-lg hidden-md hidden-xl">Δ</span> <span class="hidden-xs hidden-sm">Δευτέρα</span></th>
+          <th><span class="hidden-lg hidden-md hidden-xl">Τ</span> <span class="hidden-xs hidden-sm">Τρίτη</span></th>
+          <th><span class="hidden-lg hidden-md hidden-xl">Τ</span> <span class="hidden-xs hidden-sm">Τετάρτη</span></th>
+          <th><span class="hidden-lg hidden-md hidden-xl">Π</span> <span class="hidden-xs hidden-sm">Πέμπτη</span></th>
+          <th><span class="hidden-lg hidden-md hidden-xl">Π</span> <span class="hidden-xs hidden-sm">Παρασκευή</span></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+              <td id="coltime">09:00-10:00</td>
+              <td></td>
+              <td id="lab9"><i class="fa fa-flask fa-fw"></i> <b id="lab9">T9</b><br><i class="fa fa-university fa-fw" ></i> 211<br><span class="hidden-xs"><i class="fa fa-male fa-fw" ></i> Σιάκα</span></td>
+              <td></td>
+              <td></td>
+              <td></td>
+        </tr>
+        <tr>
+              <td id="coltime">10:00-11:00</td>
+              <td></td>
+              <td id="lab9"><i class="fa fa-flask fa-fw"></i> <b id="lab9">T9</b><br><i class="fa fa-university fa-fw" ></i> 211<br><span class="hidden-xs"><i class="fa fa-male fa-fw" ></i> Σιάκα</span></td>
+              <td></td>
+              <td></td>
+              <td></td>
+        </tr>
+        <tr>
+              <td id="coltime">11:00-12:00</td>
+              <td id="lab7"><i class="fa fa-flask fa-fw"></i> <b id="lab7">T7</b><br><i class="fa fa-university fa-fw" ></i> 210<br><span class="hidden-xs"><i class="fa fa-male fa-fw" ></i> Γιακουστίδης</span></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td id="lab1"><i class="fa fa-flask fa-fw"></i> <b id="lab1">T1</b><br><i class="fa fa-university fa-fw" ></i> 208<br><span class="hidden-xs"><i class="fa fa-male fa-fw" ></i> Σιάκα</span></td>
+        </tr>
+        <tr>
+              <td id="coltime">12:00-13:00</td>
+              <td id="lab7"><i class="fa fa-flask fa-fw"></i> <b id="lab7">T7</b><br><i class="fa fa-university fa-fw" ></i> 210<br><span class="hidden-xs"><i class="fa fa-male fa-fw" ></i> Γιακουστίδης</span></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td id="lab1"><i class="fa fa-flask fa-fw"></i> <b id="lab1">T1</b><br><i class="fa fa-university fa-fw" ></i> 208<br><span class="hidden-xs"><i class="fa fa-male fa-fw" ></i> Σιάκα</span></td>
+        </tr>
+        <tr>
+              <td id="coltime">13:00-14:00</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+        </tr>
+        <tr>
+              <td id="coltime">14:00-15:00</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td><i class="fa fa-book fa-fw"></i> <b id="">Θ1</b><br><i class="fa fa-university fa-fw" ></i> AΜΦ<br><span class="hidden-xs"><i class="fa fa-male fa-fw  " ></i> Σιάκα</span></td>
+        </tr>
+        <tr>
+              <td id="coltime">15:00-16:00</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td><i class="fa fa-book fa-fw"></i> <b id="">Θ1</b><br><i class="fa fa-university fa-fw" ></i> AΜΦ<br><span class="hidden-xs"><i class="fa fa-male fa-fw  " ></i> Σιάκα</span></td>
+        </tr>
+        <tr>
+              <td id="coltime">16:00-17:00</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td><i class="fa fa-book fa-fw"></i> <b id="">Θ1</b><br><i class="fa fa-university fa-fw" ></i> AΜΦ<br><span class="hidden-xs"><i class="fa fa-male fa-fw  " ></i> Σιάκα</span></td>
+        </tr>
+    </tbody>
+    </table>
+    ';
+  }
+  else {
+    echo '<div class="alert alert-info" role="alert"><i class="fa fa-info-circle fa-1x"> Παρακαλώ επιλέξτε να μάθημα από την λίστα.</i></div>';
   }
 }
 
