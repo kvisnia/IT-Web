@@ -46,3 +46,16 @@
 #lab10{
   color: #5014cc;
 }
+
+#courmenu{
+  padding-left: 0px;
+  padding-right: 5px;
+}
+
+#noborderup {
+     border-top: none !important;
+ }
+
+ .noborderup{
+      border-top: none !important;
+  }

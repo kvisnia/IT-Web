@@ -25,7 +25,7 @@
   <div class="tab-pane active" id="panel-806771">
     <div class="container-fluid">
     <div class="row ">
-      <div class="col-xl-3 col-lg-3 col-md-6  col-sm-12">
+      <div class="col-xl-3 col-lg-3 col-md-6  col-sm-12" id="courmenu">
         <?php asem(); ?>
       </div>
       <div class="col-xl-9 col-lg-9 col-md-6  col-sm-12">

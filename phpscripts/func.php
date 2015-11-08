@@ -1,7 +1,7 @@
 <?php
 function setactive($name){
-  if(isset($_GET['pm']) && !empty($_GET['pm'])){
-    if ($_GET['pm']== $name){
+  if(isset($_GET['cid']) && !empty($_GET['cid'])){
+    if ($_GET['cid']== $name){
       return "active";
     }
     else {
@@ -12,5 +12,6 @@ function setactive($name){
     return "";
   }
 }
+
 
 ?>
