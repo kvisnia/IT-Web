@@ -134,6 +134,33 @@ function asem(){
   ';
 }
 
+function gsem(){
+ echo '
+  <div class="list-group" >
+    <a href="index.php?c=prog&pm=main&cid=5101#panel-993226" class="list-group-item '.setactive('5101').'" >
+      <h4 class="list-group-item-heading" >Αριθμητική Ανάλυση & Προγραμματισμός Επιστημονικών Εφαρμογών</h4>
+      <p class="list-group-item-text"><i class="fa fa-book"></i> <b>3</b> Ώρες | <i class="fa fa-flask"></i> <b>2</b> Ώρες</p>
+    </a>
+    <a href="index.php?c=prog&pm=main&cid=5102#panel-993226" class="list-group-item '.setactive('5102').'">
+      <h4 class="list-group-item-heading">Δομές Δεδομένων και Ανάλυση Αλγορίθμων</h4>
+      <p class="list-group-item-text"><i class="fa fa-book"></i> <b>4</b> Ώρες | <i class="fa fa-flask"></i> <b>2</b> Ώρες</p>
+    </a>
+    <a href="index.php?c=prog&pm=main&cid=5103#panel-993226" class="list-group-item '.setactive('5103').'">
+      <h4 class="list-group-item-heading">Οργάνωση και Αρχιτεκτονική Υπολογιστικών Συστημάτων</h4>
+      <p class="list-group-item-text"><i class="fa fa-book"></i> <b>3</b> Ώρες | <i class="fa fa-flask"></i> <b>2</b> Ώρες</p>
+    </a>
+    <a href="index.php?c=prog&pm=main&cid=5104#panel-993226" class="list-group-item '.setactive('5104').'" >
+      <h4 class="list-group-item-heading">Αλληλεπίδραση Ανθρώπου-Μηχανής & Ανάπτυξη Διεπιφανειών Χρήστη</h4>
+      <p class="list-group-item-text"><i class="fa fa-book"></i> <b>3</b> Ώρες | <i class="fa fa-flask"></i> <b>2</b> Ώρες</p>
+    </a>
+    <a href="index.php?c=prog&pm=main&cid=5105#panel-993226" class="list-group-item '.setactive('5105').'">
+      <h4 class="list-group-item-heading">Συστήματα Διαχείρισης Βάσεων Δεδομένων</h4>
+      <p class="list-group-item-text"><i class="fa fa-book"></i> <b>3</b> Ώρες | <i class="fa fa-flask"></i> <b>2</b> Ώρες</p>
+    </a>
+  </div>
+  ';
+}
+
 function getcour($id){
   if($id==5101){
     echo '
