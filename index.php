@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/timeline.css" media="screen">
     <link rel="stylesheet" href="css/style.css" media="screen">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.9/css/dataTables.bootstrap.min.css" media="screen">
+    <script src="js/menu.js"></script>
   </head>
 
 <?PHP require("phpscripts/progfunc.php"); ?>

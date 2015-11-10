@@ -12,7 +12,7 @@
     <a href="#panel-993226" data-toggle="tab" class="btn disabled">Δ εξάμηνο</a>
   </li>
   <li>
-    <a href="#panel-993226" data-toggle="tab">Ε εξάμηνο</a>
+    <a href="#panel-993227" data-toggle="tab">Ε εξάμηνο</a>
   </li>
   <li>
     <a href="#panel-993226" data-toggle="tab" class="btn disabled">ΣΤ εξάμηνο</a>
@@ -39,7 +39,18 @@
       <div class="col-xl-3 col-lg-3 col-md-6  col-sm-12" id="courmenu">
         <?php gsem(); ?>
       </div>
-      <div class="col-xl-9 col-lg-9 col-md-6  col-sm-12" id="tableresult">
+      <div class="col-xl-9 col-lg-9 col-md-6  col-sm-12" id="tableresult3">
+        <?php /*getcour($_GET['cid']); */?>
+      </div>
+    </div>
+  </div>
+
+  <div class="tab-pane" id="panel-993227">
+    <div class="row">
+      <div class="col-xl-3 col-lg-3 col-md-6  col-sm-12" id="courmenu">
+        <?php esem(); ?>
+      </div>
+      <div class="col-xl-9 col-lg-9 col-md-6  col-sm-12" id="tableresult5">
         <?php /*getcour($_GET['cid']); */?>
       </div>
     </div>
