@@ -11,39 +11,39 @@
             <table class="table table-user-information">
               <tbody>
                 <tr>
-                  <td>Όνομα:</td>
+                  <td id="headers">Όνομα:</td>
                   <td>Πέτρος</td>
                 </tr>
                 <tr>
-                  <td>Επώνυμο:</td>
+                  <td id="headers">Επώνυμο:</td>
                   <td>Παπαδόπουλος</td>
                 </tr>
                 <tr>
-                  <td>Τμήμα:</td>
+                  <td id="headers">Τμήμα:</td>
                   <td>Τμήμα πληροφορικής</td>
                 </tr>
                 <tr>
-                  <td>Ημερομηνία Εγγραφής:</td>
+                  <td id="headers">Ημερομηνία Εγγραφής:</td>
                   <td>15-09-2014</td>
                 </tr>
                 <tr>
-                  <td>Εξάμηνο</td>
+                  <td id="headers">Εξάμηνο:</td>
                   <td>Γ</td>
                 </tr>
                 <tr>
-                  <td>Διευθυνση κατοικίας</td>
+                  <td id="headers">Διευθυνση κατοικίας:</td>
                   <td>Αριστοτέλους 11</td>
                 </tr>
                 <tr>
-                  <td>Email</td>
+                  <td id="headers">Email:</td>
                   <td><a href="mailto:kvisnia@it.teithe.gr">kvisnia@it.teithe.gr</a></td>
                 </tr>
                 <tr>
-                  <td>Τηλέφωνο</td>
+                  <td id="headers">Τηλέφωνο:</td>
                   <td>6912345678</td>
                 </tr>
                 <tr>
-                  <td>Τελαυταία είσοδος</td>
+                  <td id="headers">Τελαυταία είσοδος:</td>
                   <td>18/02/2015 13:22</td>
                 </tr>
               </tbody>

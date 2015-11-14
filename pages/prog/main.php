@@ -30,6 +30,7 @@
       </div>
       <div class="col-xl-9 col-lg-9 col-md-6  col-sm-12" id="tableresult">
         <?php /*getcour($_GET['cid']); */?>
+        <div class="alert alert-info" role="alert"><i class="fa fa-info-circle fa-1x"> Παρακαλώ επιλέξτε να μάθημα από την λίστα.</i></div>
       </div>
     </div>
   </div>
@@ -41,6 +42,7 @@
       </div>
       <div class="col-xl-9 col-lg-9 col-md-6  col-sm-12" id="tableresult3">
         <?php /*getcour($_GET['cid']); */?>
+        <div class="alert alert-info" role="alert"><i class="fa fa-info-circle fa-1x"> Παρακαλώ επιλέξτε να μάθημα από την λίστα.</i></div>
       </div>
     </div>
   </div>
@@ -49,9 +51,11 @@
     <div class="row">
       <div class="col-xl-3 col-lg-3 col-md-6  col-sm-12" id="courmenu">
         <?php esem(); ?>
+      
       </div>
       <div class="col-xl-9 col-lg-9 col-md-6  col-sm-12" id="tableresult5">
         <?php /*getcour($_GET['cid']); */?>
+        <div class="alert alert-info" role="alert"><i class="fa fa-info-circle fa-1x"> Παρακαλώ επιλέξτε να μάθημα από την λίστα.</i></div>
       </div>
     </div>
   </div>
