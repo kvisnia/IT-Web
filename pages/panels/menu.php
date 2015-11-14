@@ -20,7 +20,7 @@
             <li><a href="javascript:mainloader('prog&pm=room');" id="blue-color"><i class="fa fa-university fa-fw"></i>&nbsp; Ανά αίθουσα</a></li>
           </ul>
     </li>
-    <li><a href="index.php?c=prog" id="blue-color"><i class="fa fa fa-book" ></i> Μαθήματα</a></li>
+    <li><a href="javascript:mainloader('cour');" id="blue-color"><i class="fa fa fa-book" ></i> Μαθήματα</a></li>
     <li><a href="index.php?c=contact" id="blue-color"><i class="fa fa-bullhorn "></i> Ανακοινώσεις</a></li>
     <li><a href="#"><i class="fa fa-male " id="blue-color"></i> Καθηγητές</a></li>
       <li class="dropdown">
