@@ -73,3 +73,13 @@ function mainloader(onoma) {
   xhttp.open("GET", "mainloader.php?c="+onoma+"", true);
   xhttp.send();
 }
+
+
+function getprofprog(onoma) {
+  var nanobar = new Nanobar();
+
+   document.getElementById("profprog").innerHTML = "Καθηγητής:"+onoma;
+
+    nanobar.go(100)
+
+}
