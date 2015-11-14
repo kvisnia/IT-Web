@@ -2,7 +2,7 @@
   <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xs-offset-0 col-sm-offset-0 col-md-offset-0 col-lg-offset-0 toppad" >
     <div class="panel panel-default">
       <div class="panel-heading">
-        <h3 class="panel-title"><b><i class="fa fa-pencil-square-o fa-lg"></i> Στοιχεία φοιτητή</b></h3>
+        <h3 class="panel-title" id="blue-color"><b><i class="fa fa-pencil-square-o fa-lg"></i> Στοιχεία φοιτητή</b></h3>
       </div>
       <div class="panel-body">
         <div class="row">
@@ -58,7 +58,7 @@
 <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xs-offset-0 col-sm-offset-0 col-md-offset-0 col-lg-offset-0 toppad" >
   <div class="panel panel-default ">
                   <div class="panel-heading">
-                      <b><i class="fa fa-clock-o fa-fw fa-lg"></i> Τελευταίες ενημερώσεις</b>
+                      <b id="blue-color"><i class="fa fa-clock-o fa-fw fa-lg"></i> Τελευταίες ενημερώσεις</b>
                   </div>
                   <!-- /.panel-heading -->
                   <div class="timeline-main-panel panel-body ">
