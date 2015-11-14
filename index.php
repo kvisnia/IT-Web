@@ -10,12 +10,13 @@
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.9/css/dataTables.bootstrap.min.css" media="screen">
     <script src="js/nanobar.js"></script>
     <script src="js/menu.js"></script>
+
   </head>
 
 <?PHP require("phpscripts/progfunc.php"); ?>
 <?PHP require("phpscripts/func.php"); ?>
 
-  <body onload="mainloader('home')">
+  <body onload="mainloader('<?php echo $_GET['c']; ?>')" id="bodyDiv">
   <?PHP include("./pages/panels/menu.php"); ?>
 
     <div class="container" id="homecontainer">
@@ -25,9 +26,5 @@
 
     <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
     <script src="js/bootstrap.js"></script>
-    <script src="js/jquery.dataTables.js"></script>
-    <script src="js/dataTables.bootstrap.js"></script>
-
-
   </body>
 </html>

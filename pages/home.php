@@ -66,7 +66,7 @@
                           <li>
                               <div class="timeline-badge"><i class="fa fa-check"></i>
                               </div>
-                              <div class="timeline-panel">
+                              <div class="timeline-panel" >
                                   <div class="timeline-heading">
                                       <h4 class="timeline-title">Δομές Δεδομένων - Ε</h4>
                                       <p><small class="text-muted"><i class="fa fa-clock-o"></i> 3 ώρες πριν.</small>
