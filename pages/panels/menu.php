@@ -7,7 +7,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.php"><i class="fa fa-home fa-lg"></i> Αρχική σελίδα</a>
+      <a class="navbar-brand"  onclick="mainloader('home')"><i class="fa fa-home fa-lg"></i> Αρχική σελίδα</a>
     </div>
 
   <div class="collapse navbar-collapse navbar-side"navbar-side>
@@ -15,9 +15,9 @@
     <li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="index.php?c=prog"><i class="fa fa-calendar-check-o "></i> Πρόγραμμα <b class="caret"></b></a>
           <ul class="dropdown-menu">
-            <li><a href="index.php?c=prog&pm=main"><i class="fa fa-calendar fa-fw"></i>&nbsp; Ανά εξάμηνο</a></li>
-            <li><a href="index.php?c=prog&pm=prof"><i class="fa fa-male fa-fw"></i>&nbsp; Ανά καθηγητή</a></li>
-            <li><a href="#"><i class="fa fa-university fa-fw"></i>&nbsp; Ανά αίθουσα</a></li>
+            <li><a onclick="mainloader('prog')"><i class="fa fa-calendar fa-fw"></i>&nbsp; Ανά εξάμηνο</a></li>
+            <li><a  onclick="mainloader('prog&pm=prof')"><i class="fa fa-male fa-fw"></i>&nbsp; Ανά καθηγητή</a></li>
+            <li><a onclick="mainloader('prog&pm=room')"><i class="fa fa-university fa-fw"></i>&nbsp; Ανά αίθουσα</a></li>
           </ul>
     </li>
     <li><a href="index.php?c=prog" ><i class="fa fa fa-book" ></i> Μαθήματα</a></li>

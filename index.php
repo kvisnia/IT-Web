@@ -8,44 +8,18 @@
     <link rel="stylesheet" href="css/timeline.css" media="screen">
     <link rel="stylesheet" href="css/style.css" media="screen">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.9/css/dataTables.bootstrap.min.css" media="screen">
+    <script src="js/nanobar.js"></script>
     <script src="js/menu.js"></script>
   </head>
 
 <?PHP require("phpscripts/progfunc.php"); ?>
 <?PHP require("phpscripts/func.php"); ?>
 
-  <body>
+  <body onload="mainloader('home')">
   <?PHP include("./pages/panels/menu.php"); ?>
 
-    <div class="container" id="container">
-      <?PHP
-         if(isset($_GET['c']) && !empty($_GET['c']))
+    <div class="container" id="homecontainer">
 
-          {
-
-            if(file_exists(realpath('pages/')."/".$_GET['c'].".php"))
-
-            {
-
-              include(realpath('pages/')."/".$_GET['c'].".php");
-
-            }
-
-            else {
-
-              include(realpath('pages/').'/home.php');
-
-            }
-
-          } else
-
-          {
-
-            include(realpath('./pages/').'/home.php');
-
-          }
-
-          ?>
     </div>
 
 

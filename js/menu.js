@@ -1,8 +1,19 @@
 function loadpage(onoma,did) {
+  var nanobar = new Nanobar();
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
+    if (xhttp.readyState == 1){
+
+      nanobar.go(20)
+    }
+    if (xhttp.readyState == 2){
+      nanobar.go(40)
+    }
+    if (xhttp.readyState == 3){
+      nanobar.go(60)
+    }
     if (xhttp.readyState == 4 && xhttp.status == 200) {
-      
+
     if (did==1){
        document.getElementById("tableresult").innerHTML = xhttp.responseText;
     }
@@ -27,6 +38,7 @@ function loadpage(onoma,did) {
     else{
        document.getElementById("tableresult").innerHTML = xhttp.responseText;
     }
+    nanobar.go(100)
 
     }
   }
@@ -35,21 +47,29 @@ function loadpage(onoma,did) {
   xhttp.send();
 }
 
+function mainloader(onoma) {
+  var nanobar = new Nanobar();
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (xhttp.readyState == 1){
 
-/*
-function loadpage2(codeles) {
-$.ajax({
-  url: 'phpscripts/getsem.php',
-  type: 'GET',
-  data: 'cid='+codeles,
-  success: function(data) {
-	//called when successful
-	$('#ajaxphp-results').html(data);
-  },
-  error: function(e) {
-	//called when there is an error
-	//console.log(e.message);
+      nanobar.go(20)
+    }
+    if (xhttp.readyState == 2){
+      nanobar.go(40)
+    }
+    if (xhttp.readyState == 3){
+      nanobar.go(60)
+    }
+    if (xhttp.readyState == 4 && xhttp.status == 200) {
+
+       document.getElementById("homecontainer").innerHTML = xhttp.responseText;
+
+    nanobar.go(100)
+
+    }
   }
-});
+  /*sendString = onoma.substring(1);*/
+  xhttp.open("GET", "mainloader.php?c="+onoma+"", true);
+  xhttp.send();
 }
-*/

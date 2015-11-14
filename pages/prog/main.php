@@ -26,10 +26,31 @@
     <div class="container-fluid">
     <div class="row ">
       <div class="col-xl-3 col-lg-3 col-md-6  col-sm-12" id="courmenu">
-        <?php asem(); ?>
+        <div class="list-group" >
+          <a  class="list-group-item" onclick="loadpage(5101,1)">
+            <h4 class="list-group-item-heading" >Εισαγωγή στην Πληροφορική</h4>
+            <p class="list-group-item-text"><i class="fa fa-book"></i> <b>4</b> Ώρες | <i class="fa fa-flask"></i> <b>2</b> Ώρες</p>
+          </a>
+          <a  class="list-group-item" onclick="loadpage(5102,1)">
+            <h4 class="list-group-item-heading">Αλγοριθμική και Προγραμματισμός</h4>
+            <p class="list-group-item-text"><i class="fa fa-book"></i> <b>4</b> Ώρες | <i class="fa fa-flask"></i> <b>2</b> Ώρες</p>
+          </a>
+          <a  class="list-group-item " onclick="loadpage(5103,1)">
+            <h4 class="list-group-item-heading">Ψηφιακά Συστήματα</h4>
+            <p class="list-group-item-text"><i class="fa fa-book"></i> <b>4</b> Ώρες | <i class="fa fa-flask"></i> <b>0</b> Ώρες</p>
+          </a>
+          <a  class="list-group-item " onclick="loadpage(5104,1)">
+            <h4 class="list-group-item-heading">Μαθηματική Ανάλυση</h4>
+            <p class="list-group-item-text"><i class="fa fa-book"></i> <b>5</b> Ώρες | <i class="fa fa-flask"></i> <b>0</b> Ώρες</p>
+          </a>
+          <a  class="list-group-item " onclick="loadpage(5105,1)">
+            <h4 class="list-group-item-heading">Δεξιότητες Επικοινωνίας/Κοινωνικά Δίκτυα</h4>
+            <p class="list-group-item-text"><i class="fa fa-book"></i> <b>3</b> Ώρες | <i class="fa fa-flask"></i> <b>2</b> Ώρες</p>
+          </a>
+        </div>
       </div>
       <div class="col-xl-9 col-lg-9 col-md-6  col-sm-12" id="tableresult">
-        <?php /*getcour($_GET['cid']); */?>
+
         <div class="alert alert-info" role="alert"><i class="fa fa-info-circle fa-1x"> Παρακαλώ επιλέξτε να μάθημα από την λίστα.</i></div>
       </div>
     </div>
@@ -38,10 +59,30 @@
   <div class="tab-pane" id="panel-993226">
     <div class="row">
       <div class="col-xl-3 col-lg-3 col-md-6  col-sm-12" id="courmenu">
-        <?php gsem(); ?>
+        <div class="list-group" >
+          <a  class="list-group-item " onclick="loadpage(5101,3)">
+            <h4 class="list-group-item-heading" >Αριθμητική Ανάλυση & Προγραμματισμός Επιστημονικών Εφαρμογών</h4>
+            <p class="list-group-item-text"><i class="fa fa-book"></i> <b>3</b> Ώρες | <i class="fa fa-flask"></i> <b>2</b> Ώρες</p>
+          </a>
+          <a  class="list-group-item " onclick="loadpage(5102,3)">
+            <h4 class="list-group-item-heading">Δομές Δεδομένων και Ανάλυση Αλγορίθμων</h4>
+            <p class="list-group-item-text"><i class="fa fa-book"></i> <b>4</b> Ώρες | <i class="fa fa-flask"></i> <b>2</b> Ώρες</p>
+          </a>
+          <a  class="list-group-item " onclick="loadpage(5103,3)">
+            <h4 class="list-group-item-heading">Οργάνωση και Αρχιτεκτονική Υπολογιστικών Συστημάτων</h4>
+            <p class="list-group-item-text"><i class="fa fa-book"></i> <b>3</b> Ώρες | <i class="fa fa-flask"></i> <b>2</b> Ώρες</p>
+          </a>
+          <a  class="list-group-item " onclick="loadpage(5104,3)">
+            <h4 class="list-group-item-heading">Αλληλεπίδραση Ανθρώπου-Μηχανής & Ανάπτυξη Διεπιφανειών Χρήστη</h4>
+            <p class="list-group-item-text"><i class="fa fa-book"></i> <b>3</b> Ώρες | <i class="fa fa-flask"></i> <b>2</b> Ώρες</p>
+          </a>
+          <a  class="list-group-item " onclick="loadpage(5105,3)">
+            <h4 class="list-group-item-heading">Συστήματα Διαχείρισης Βάσεων Δεδομένων</h4>
+            <p class="list-group-item-text"><i class="fa fa-book"></i> <b>3</b> Ώρες | <i class="fa fa-flask"></i> <b>2</b> Ώρες</p>
+          </a>
+        </div>
       </div>
       <div class="col-xl-9 col-lg-9 col-md-6  col-sm-12" id="tableresult3">
-        <?php /*getcour($_GET['cid']); */?>
         <div class="alert alert-info" role="alert"><i class="fa fa-info-circle fa-1x"> Παρακαλώ επιλέξτε να μάθημα από την λίστα.</i></div>
       </div>
     </div>
@@ -50,11 +91,31 @@
   <div class="tab-pane" id="panel-993227">
     <div class="row">
       <div class="col-xl-3 col-lg-3 col-md-6  col-sm-12" id="courmenu">
-        <?php esem(); ?>
-      
+        <div class="list-group" >
+          <a  class="list-group-item " onclick="loadpage(5101,5)">
+            <h4 class="list-group-item-heading" >Αρχές Σχεδίασης Λειτουργικών Συστημάτων</h4>
+            <p class="list-group-item-text"><i class="fa fa-book"></i> <b>5</b> Ώρες | <i class="fa fa-flask"></i> <b>0</b> Ώρες</p>
+          </a>
+          <a  class="list-group-item " onclick="loadpage(5102,5)">
+            <h4 class="list-group-item-heading">Μηχανική Λογισμικού Ι</h4>
+            <p class="list-group-item-text"><i class="fa fa-book"></i> <b>4</b> Ώρες | <i class="fa fa-flask"></i> <b>2</b> Ώρες</p>
+          </a>
+          <a  class="list-group-item " onclick="loadpage(5103,5)">
+            <h4 class="list-group-item-heading">Δίκτυα Η/Υ</h4>
+            <p class="list-group-item-text"><i class="fa fa-book"></i> <b>3</b> Ώρες | <i class="fa fa-flask"></i> <b>2</b> Ώρες</p>
+          </a>
+          <a  class="list-group-item " onclick="loadpage(5104,5)">
+            <h4 class="list-group-item-heading">Ανάπτυξη Διαδικτυακών Συστ. και Εφαρμογών</h4>
+            <p class="list-group-item-text"><i class="fa fa-book"></i> <b>3</b> Ώρες | <i class="fa fa-flask"></i> <b>2</b> Ώρες</p>
+          </a>
+          <a  class="list-group-item " onclick="loadpage(5105,5)">
+            <h4 class="list-group-item-heading">Επιχειρησιακή Έρευνα</h4>
+            <p class="list-group-item-text"><i class="fa fa-book"></i> <b>4</b> Ώρες | <i class="fa fa-flask"></i> <b>0</b> Ώρες</p>
+          </a>
+        </div>
+
       </div>
       <div class="col-xl-9 col-lg-9 col-md-6  col-sm-12" id="tableresult5">
-        <?php /*getcour($_GET['cid']); */?>
         <div class="alert alert-info" role="alert"><i class="fa fa-info-circle fa-1x"> Παρακαλώ επιλέξτε να μάθημα από την λίστα.</i></div>
       </div>
     </div>
