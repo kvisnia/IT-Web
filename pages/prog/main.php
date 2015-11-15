@@ -1,3 +1,5 @@
+<b id="heds"><i class="fa fa-calendar-check-o "></i> Πρόγραμμα > <i class="fa fa-calendar fa-fw"></i> Ανά εξάμηνο</b>
+<hr>
 <ul class="nav nav-tabs">
   <li class="active">
     <a href="#panel-806771" data-toggle="tab">Α εξάμηνο</a>

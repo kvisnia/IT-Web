@@ -106,7 +106,7 @@
 				el;
 
 			// set options
-			opts.bg = opts.bg || '#3385ff';
+			opts.bg = opts.bg || '#2c6b82';
 			this.bars = [];
 
 

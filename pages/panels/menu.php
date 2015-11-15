@@ -7,6 +7,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
+
       <a class="navbar-brand" href="javascript:mainloader('home');" id="blue-color"><i class="fa fa-home fa-lg"></i> Αρχική σελίδα</a>
     </div>
 
