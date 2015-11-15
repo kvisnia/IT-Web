@@ -7,11 +7,11 @@ if($_GET['cid']==5101){
     <thead>
       <tr>
         <th><i class="fa fa-clock-o hidden-lg hidden-md hidden-xl"></i> <span class="hidden-xs hidden-sm">Ώρες</span></th>
-      <th><span class="hidden-lg hidden-md hidden-xl">Δ</span> <span class="hidden-xs hidden-sm">Δευτέρα</span></th>
-        <th><span class="hidden-lg hidden-md hidden-xl">Τ</span> <span class="hidden-xs hidden-sm">Τρίτη</span></th>
-        <th><span class="hidden-lg hidden-md hidden-xl">Τ</span> <span class="hidden-xs hidden-sm">Τετάρτη</span></th>
-        <th><span class="hidden-lg hidden-md hidden-xl">Π</span> <span class="hidden-xs hidden-sm">Πέμπτη</span></th>
-        <th><span class="hidden-lg hidden-md hidden-xl">Π</span> <span class="hidden-xs hidden-sm">Παρασκευή</span></th>
+      <th><span class="hidden-lg hidden-md hidden-xl">Δε</span> <span class="hidden-xs hidden-sm">Δευτέρα</span></th>
+        <th><span class="hidden-lg hidden-md hidden-xl">Τρ</span> <span class="hidden-xs hidden-sm">Τρίτη</span></th>
+        <th><span class="hidden-lg hidden-md hidden-xl">Τε</span> <span class="hidden-xs hidden-sm">Τετάρτη</span></th>
+        <th><span class="hidden-lg hidden-md hidden-xl">Πε</span> <span class="hidden-xs hidden-sm">Πέμπτη</span></th>
+        <th><span class="hidden-lg hidden-md hidden-xl">Πα</span> <span class="hidden-xs hidden-sm">Παρασκευή</span></th>
       </tr>
     </thead>
     <tbody>
@@ -112,11 +112,11 @@ elseif($_GET['cid']==5102){
     <thead>
       <tr>
         <th><i class="fa fa-clock-o hidden-lg hidden-md hidden-xl"></i> <span class="hidden-xs hidden-sm">Ώρες</span></th>
-      <th><span class="hidden-lg hidden-md hidden-xl">Δ</span> <span class="hidden-xs hidden-sm">Δευτέρα</span></th>
-        <th><span class="hidden-lg hidden-md hidden-xl">Τ</span> <span class="hidden-xs hidden-sm">Τρίτη</span></th>
-        <th><span class="hidden-lg hidden-md hidden-xl">Τ</span> <span class="hidden-xs hidden-sm">Τετάρτη</span></th>
-        <th><span class="hidden-lg hidden-md hidden-xl">Π</span> <span class="hidden-xs hidden-sm">Πέμπτη</span></th>
-        <th><span class="hidden-lg hidden-md hidden-xl">Π</span> <span class="hidden-xs hidden-sm">Παρασκευή</span></th>
+      <th><span class="hidden-lg hidden-md hidden-xl">Δε</span> <span class="hidden-xs hidden-sm">Δευτέρα</span></th>
+        <th><span class="hidden-lg hidden-md hidden-xl">Τρ</span> <span class="hidden-xs hidden-sm">Τρίτη</span></th>
+        <th><span class="hidden-lg hidden-md hidden-xl">Τε</span> <span class="hidden-xs hidden-sm">Τετάρτη</span></th>
+        <th><span class="hidden-lg hidden-md hidden-xl">Πε</span> <span class="hidden-xs hidden-sm">Πέμπτη</span></th>
+        <th><span class="hidden-lg hidden-md hidden-xl">Πα</span> <span class="hidden-xs hidden-sm">Παρασκευή</span></th>
       </tr>
     </thead>
     <tbody>
@@ -258,11 +258,11 @@ elseif($_GET['cid']==5103){
     <thead>
       <tr>
         <th><i class="fa fa-clock-o hidden-lg hidden-md hidden-xl"></i> <span class="hidden-xs hidden-sm">Ώρες</span></th>
-      <th><span class="hidden-lg hidden-md hidden-xl">Δ</span> <span class="hidden-xs hidden-sm">Δευτέρα</span></th>
-        <th><span class="hidden-lg hidden-md hidden-xl">Τ</span> <span class="hidden-xs hidden-sm">Τρίτη</span></th>
-        <th><span class="hidden-lg hidden-md hidden-xl">Τ</span> <span class="hidden-xs hidden-sm">Τετάρτη</span></th>
-        <th><span class="hidden-lg hidden-md hidden-xl">Π</span> <span class="hidden-xs hidden-sm">Πέμπτη</span></th>
-        <th><span class="hidden-lg hidden-md hidden-xl">Π</span> <span class="hidden-xs hidden-sm">Παρασκευή</span></th>
+      <th><span class="hidden-lg hidden-md hidden-xl">Δε</span> <span class="hidden-xs hidden-sm">Δευτέρα</span></th>
+        <th><span class="hidden-lg hidden-md hidden-xl">Τρ</span> <span class="hidden-xs hidden-sm">Τρίτη</span></th>
+        <th><span class="hidden-lg hidden-md hidden-xl">Τε</span> <span class="hidden-xs hidden-sm">Τετάρτη</span></th>
+        <th><span class="hidden-lg hidden-md hidden-xl">Πε</span> <span class="hidden-xs hidden-sm">Πέμπτη</span></th>
+        <th><span class="hidden-lg hidden-md hidden-xl">Πα</span> <span class="hidden-xs hidden-sm">Παρασκευή</span></th>
       </tr>
     </thead>
     <tbody>
@@ -292,11 +292,11 @@ elseif($_GET['cid']==5104){
     <thead>
       <tr>
         <th><i class="fa fa-clock-o hidden-lg hidden-md hidden-xl"></i> <span class="hidden-xs hidden-sm">Ώρες</span></th>
-      <th><span class="hidden-lg hidden-md hidden-xl">Δ</span> <span class="hidden-xs hidden-sm">Δευτέρα</span></th>
-        <th><span class="hidden-lg hidden-md hidden-xl">Τ</span> <span class="hidden-xs hidden-sm">Τρίτη</span></th>
-        <th><span class="hidden-lg hidden-md hidden-xl">Τ</span> <span class="hidden-xs hidden-sm">Τετάρτη</span></th>
-        <th><span class="hidden-lg hidden-md hidden-xl">Π</span> <span class="hidden-xs hidden-sm">Πέμπτη</span></th>
-        <th><span class="hidden-lg hidden-md hidden-xl">Π</span> <span class="hidden-xs hidden-sm">Παρασκευή</span></th>
+      <th><span class="hidden-lg hidden-md hidden-xl">Δε</span> <span class="hidden-xs hidden-sm">Δευτέρα</span></th>
+        <th><span class="hidden-lg hidden-md hidden-xl">Τρ</span> <span class="hidden-xs hidden-sm">Τρίτη</span></th>
+        <th><span class="hidden-lg hidden-md hidden-xl">Τε</span> <span class="hidden-xs hidden-sm">Τετάρτη</span></th>
+        <th><span class="hidden-lg hidden-md hidden-xl">Πε</span> <span class="hidden-xs hidden-sm">Πέμπτη</span></th>
+        <th><span class="hidden-lg hidden-md hidden-xl">Πα</span> <span class="hidden-xs hidden-sm">Παρασκευή</span></th>
       </tr>
     </thead>
     <tbody>
@@ -366,11 +366,11 @@ elseif($_GET['cid']==5105){
     <thead>
       <tr>
         <th><i class="fa fa-clock-o hidden-lg hidden-md hidden-xl"></i> <span class="hidden-xs hidden-sm">Ώρες</span></th>
-        <th><span class="hidden-lg hidden-md hidden-xl">Δ</span> <span class="hidden-xs hidden-sm">Δευτέρα</span></th>
-        <th><span class="hidden-lg hidden-md hidden-xl">Τ</span> <span class="hidden-xs hidden-sm">Τρίτη</span></th>
-        <th><span class="hidden-lg hidden-md hidden-xl">Τ</span> <span class="hidden-xs hidden-sm">Τετάρτη</span></th>
-        <th><span class="hidden-lg hidden-md hidden-xl">Π</span> <span class="hidden-xs hidden-sm">Πέμπτη</span></th>
-        <th><span class="hidden-lg hidden-md hidden-xl">Π</span> <span class="hidden-xs hidden-sm">Παρασκευή</span></th>
+        <th><span class="hidden-lg hidden-md hidden-xl">Δε</span> <span class="hidden-xs hidden-sm">Δευτέρα</span></th>
+        <th><span class="hidden-lg hidden-md hidden-xl">Τρ</span> <span class="hidden-xs hidden-sm">Τρίτη</span></th>
+        <th><span class="hidden-lg hidden-md hidden-xl">Τε</span> <span class="hidden-xs hidden-sm">Τετάρτη</span></th>
+        <th><span class="hidden-lg hidden-md hidden-xl">Πε</span> <span class="hidden-xs hidden-sm">Πέμπτη</span></th>
+        <th><span class="hidden-lg hidden-md hidden-xl">Πα</span> <span class="hidden-xs hidden-sm">Παρασκευή</span></th>
       </tr>
     </thead>
     <tbody>

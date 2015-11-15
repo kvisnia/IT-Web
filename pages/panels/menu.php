@@ -23,7 +23,7 @@
     </li>
     <li><a href="javascript:mainloader('cour');" id="blue-color"><i class="fa fa fa-book" ></i> Μαθήματα</a></li>
     <li><a href="index.php?c=contact" id="blue-color"><i class="fa fa-bullhorn "></i> Ανακοινώσεις</a></li>
-    <li><a href="#"><i class="fa fa-male " id="blue-color"></i> Καθηγητές</a></li>
+    <li><a href="javascript:mainloader('prof');"><i class="fa fa-male " id="blue-color"></i> Καθηγητές</a></li>
       <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="blue-color"><i class="fa fa-user"></i> asdasd sadasdsad <b class="caret"></b></a>
           <ul class="dropdown-menu">

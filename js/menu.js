@@ -77,8 +77,10 @@ function mainloader(onoma) {
 
 function getprofprog(onoma) {
   var nanobar = new Nanobar();
+  if (onoma == "Αδαμίδης Παναγιώτης"){
+    document.getElementById("profprog").innerHTML = "Καθηγητής:"+onoma;
+  }
 
-   document.getElementById("profprog").innerHTML = "Καθηγητής:"+onoma;
 
     nanobar.go(100)
 
