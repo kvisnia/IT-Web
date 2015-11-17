@@ -7,9 +7,6 @@
     <link rel="stylesheet" href="css/bootstrap.css" media="screen">
     <link rel="stylesheet" href="css/timeline.css" media="screen">
     <link rel="stylesheet" href="css/style.css" media="screen">
-    <script src="js/nanobar.js"></script>
-    <script src="js/menu.js"></script>
-
   </head>
 
 <?PHP require("phpscripts/progfunc.php"); ?>
@@ -23,9 +20,14 @@
 
 
     </div>
-<div class="footer">sdasaddas</div>
+
+
 
     <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="js/nanobar.js"></script>
+    <script src="js/menu.js"></script>
+
+
   </body>
 </html>

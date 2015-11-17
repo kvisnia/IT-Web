@@ -1,4 +1,4 @@
-function loadpage(onoma,did) {
+function loadpage(onoma,did,element) {
   var nanobar = new Nanobar();
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
@@ -16,18 +16,27 @@ function loadpage(onoma,did) {
 
     if (did==1){
        document.getElementById("tableresult").innerHTML = xhttp.responseText;
+       document.getElementById("subinfo1").innerHTML =  element.options[ element.selectedIndex ].text;
+       document.getElementById("labinfo1").innerHTML =  element.options[ element.selectedIndex ].getAttribute("erg");
+       document.getElementById("theinfo1").innerHTML =  element.options[ element.selectedIndex ].getAttribute("the");
     }
     else if(did==2){
-       document.getElementById("tableresult2").innerHTML = xhttp.responseText;
+        //2ο εξαμηνο
     }
     else if(did==3){
        document.getElementById("tableresult3").innerHTML = xhttp.responseText;
+       document.getElementById("subinfo3").innerHTML =  element.options[ element.selectedIndex ].text;
+       document.getElementById("labinfo3").innerHTML =  element.options[ element.selectedIndex ].getAttribute("erg");
+       document.getElementById("theinfo3").innerHTML =  element.options[ element.selectedIndex ].getAttribute("the");
     }
     else if(did==4){
        document.getElementById("tableresult4").innerHTML = xhttp.responseText;
     }
     else if(did==5){
        document.getElementById("tableresult5").innerHTML = xhttp.responseText;
+       document.getElementById("subinfo5").innerHTML =  element.options[ element.selectedIndex ].text;
+       document.getElementById("labinfo5").innerHTML =  element.options[ element.selectedIndex ].getAttribute("erg");
+       document.getElementById("theinfo5").innerHTML =  element.options[ element.selectedIndex ].getAttribute("the");
     }
     else if(did==6){
        document.getElementById("tableresult6").innerHTML = xhttp.responseText;
@@ -75,13 +84,6 @@ function mainloader(onoma) {
 }
 
 
-function getprofprog(onoma) {
-  var nanobar = new Nanobar();
-  if (onoma == "Αδαμίδης Παναγιώτης"){
-    document.getElementById("profprog").innerHTML = "Καθηγητής:"+onoma;
-  }
-
-
-    nanobar.go(100)
-
+function getcanname(element) {
+document.getElementById("semname").innerHTML = element.text;
 }
