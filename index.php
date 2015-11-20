@@ -1,4 +1,6 @@
-
+<?php
+ini_set('display_errors', '0');
+ ?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -10,11 +12,10 @@
   </head>
 
 <?PHP require("phpscripts/progfunc.php"); ?>
-<?PHP require("phpscripts/func.php"); ?>
+  <body onload="mainloader('home')" id="bodyDiv">
+<div id="mainmenu" onload="mainmenu()">
 
-  <body onload="mainloader('<?php echo $_GET['c']; ?>')" id="bodyDiv">
-
-  <?PHP include("./pages/panels/menu.php"); ?>
+</div>
 
     <div class="container" id="homecontainer">
 
