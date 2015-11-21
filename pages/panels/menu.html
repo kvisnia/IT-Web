@@ -22,7 +22,15 @@
           </ul>
     </li>
     <li><a href="javascript:mainloader('cour');" id="blue-color"><i class="fa fa fa-book" ></i> Μαθήματα</a></li>
-    <li><a href="index.php?c=contact" id="blue-color"><i class="fa fa-bullhorn "></i> Ανακοινώσεις</a></li>
+
+    <li class="dropdown">
+        <a class="dropdown-toggle" href="javascript:mainloader('anon');" data-toggle="dropdown" id="blue-color"><i class="fa fa-bullhorn "></i> Ανακοινώσεις <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li><a href="javascript:mainloader('anon');" id="blue-color"><i class="fa fa-calendar fa-fw"></i>&nbsp; Ανά εξάμηνο</a></li>
+          <li><a href="javascript:mainloader('anonc');" id="blue-color"><i class="fa fa-bars fa-fw"></i>&nbsp; Ανά κατηγορία</a></li>
+          <li><a  href="javascript:mainloader('anonp');" id="blue-color"><i class="fa fa-male fa-fw"></i>&nbsp; Ανά καθηγητή</a></li>
+        </ul>
+    </li>
     <li><a href="javascript:mainloader('prof');"><i class="fa fa-male " id="blue-color"></i> Καθηγητές</a></li>
       <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="blue-color"><i class="fa fa-user"></i> Πέτρος Παπαδόπουλος <b class="caret"></b></a>
@@ -54,7 +62,7 @@
   <div class="container">
     <div class="navbar-header">
         <ul class="nav navbar-nav">
-    <li><a class="navbar-brand"  id="blue-color" href="javascript:mainloader('prog');"><i class="fa fa-home fa-lg fa-2x"></i></a></li>
+    <li><a class="navbar-brand"  id="blue-color" href="javascript:mainloader('home');"><i class="fa fa-home fa-lg fa-2x"></i></a></li>
     <li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown"  id="blue-color" href="javascript:mainloader('prog');"><i class="fa fa-calendar-check-o fa-2x"></i> <b class="caret"></b></a>
           <ul class="dropdown-menu">
@@ -63,8 +71,16 @@
             <li><a href="javascript:mainloader('proom');" id="blue-color"><i class="fa fa-university fa-fw"></i>&nbsp; Ανά αίθουσα</a></li>
           </ul>
       </li>
-    <li><a href="#contact" id="blue-color"><i class="fa fa-bullhorn fa-2x"></i> </a></li>
-    <li><a href="#contact" id="blue-color"><i class="fa fa-book fa-2x"></i> </a></li>
+
+    <li><a href="javascript:mainloader('mycour');" id="blue-color"><i class="fa fa-book fa-2x"></i> </a></li>
+    <li class="dropdown">
+        <a class="dropdown-toggle" href="javascript:mainloader('anon');" data-toggle="dropdown" id="blue-color"><i class="fa fa-bullhorn fa-2x"></i><b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li><a href="javascript:mainloader('anon');" id="blue-color"><i class="fa fa-calendar fa-fw"></i>&nbsp; Ανά εξάμηνο</a></li>
+          <li><a href="javascript:mainloader('anonc');" id="blue-color"><i class="fa fa-university fa-fw"></i>&nbsp; Ανά κατηγορία</a></li>
+          <li><a  href="javascript:mainloader('anonp');" id="blue-color"><i class="fa fa-male fa-fw"></i>&nbsp; Ανά καθηγητή</a></li>
+        </ul>
+    </li>
     <li class="dropdown">
       <a href="#" id="blue-color"><i class="fa fa-male fa-2x"></i>  <b class="caret"></b></a></li>
       <li class="dropdown">
