@@ -1,6 +1,3 @@
-<?php
-ini_set('display_errors', '0');
- ?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -11,13 +8,12 @@ ini_set('display_errors', '0');
     <link rel="stylesheet" href="css/style.css" media="screen">
   </head>
 
-<?PHP require("phpscripts/progfunc.php"); ?>
-  <body onload="mainloader('home')" id="bodyDiv">
-<div id="mainmenu" onload="mainmenu()">
+  <body  onload="mainloader('home');mainmenuload()"id="bodyDiv">
+<div id="mainmenu">
 
 </div>
 
-    <div class="container" id="homecontainer">
+    <div class="container" id="homecontainer" >
 
 
     </div>

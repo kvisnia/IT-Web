@@ -127,29 +127,7 @@
     <div class="row">
       <div class="container-fluid">
       <div class="col-xl-3 col-lg-3 col-md-6  col-sm-12" id="courmenu">
-        <div class="list-group hidden-sm hidden-xs" >
-          <a href="#" class="list-group-item " onclick="loadpage2(5101,5)">
-            <h4 class="list-group-item-heading" >Αρχές Σχεδίασης Λειτουργικών Συστημάτων</h4>
-            <p class="list-group-item-text"><i class="fa fa-book"></i> <b>5</b> Ώρες | <i class="fa fa-flask"></i> <b>0</b> Ώρες</p>
-          </a>
-          <a href="#" class="list-group-item " onclick="loadpage2(5102,5)">
-            <h4 class="list-group-item-heading">Μηχανική Λογισμικού Ι</h4>
-            <p class="list-group-item-text"><i class="fa fa-book"></i> <b>4</b> Ώρες | <i class="fa fa-flask"></i> <b>2</b> Ώρες</p>
-          </a>
-          <a href="#" class="list-group-item " onclick="loadpage2(5103,5)">
-            <h4 class="list-group-item-heading">Δίκτυα Η/Υ</h4>
-            <p class="list-group-item-text"><i class="fa fa-book"></i> <b>3</b> Ώρες | <i class="fa fa-flask"></i> <b>2</b> Ώρες</p>
-          </a>
-          <a href="#" class="list-group-item " onclick="loadpage2(5104,5)">
-            <h4 class="list-group-item-heading">Ανάπτυξη Διαδικτυακών Συστ. και Εφαρμογών</h4>
-            <p class="list-group-item-text"><i class="fa fa-book"></i> <b>3</b> Ώρες | <i class="fa fa-flask"></i> <b>2</b> Ώρες</p>
-          </a>
-          <a href="#" class="list-group-item " onclick="loadpage2(5105,5)">
-            <h4 class="list-group-item-heading">Επιχειρησιακή Έρευνα</h4>
-            <p class="list-group-item-text"><i class="fa fa-book"></i> <b>4</b> Ώρες | <i class="fa fa-flask"></i> <b>0</b> Ώρες</p>
-          </a>
-        </div>
-          <select class="myform-control input-group input-group-lg hidden-md hidden-lg" id="select5menu" onchange="loadpage(this.value,5,this)">
+          <select class="myform-control input-group input-group-lg" id="select5menu"onchange="loadpage(this.value,5,this)">
           <option >Επιλέξτε ενα μάθημα</option>
            <option value="5101" erg="0" the="5">Αρχές Σχεδίασης Λειτουργικών Συστημάτων</option>
            <option value="5102" erg="2" the="4">Μηχανική Λογισμικού Ι</option>
@@ -157,7 +135,7 @@
            <option value="5104" erg="2" the="3">Ανάπτυξη Διαδικτυακών Συστ. και Εφαρμογών</option>
            <option value="5105" erg="0" the="4">Επιχειρησιακή Έρευνα</option>
          </select>
-         <div class="panel panel-default hidden-md hidden-lg">
+         <div class="panel panel-default">
                 <div class="panel-body">
                 <strong id="subinfo5">Επιλέξτε ενα μάθημα.</strong><hr>
                 <i class="fa fa-book"></i> <b id="labinfo5">0</b> Ώρες | <i class="fa fa-flask"></i> <b id="theinfo5">0</b> Ώρες<hr>

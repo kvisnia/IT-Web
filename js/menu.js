@@ -53,7 +53,7 @@ function loadpage(onoma,did,element) {
   }
   /*sendString = onoma.substring(1);*/
   /*xhttp.open("GET", "phpscripts/getsem.php?cid="+onoma+"", true);*/
-  xhttp.open("GET", "phpscripts/"+onoma+".html", true);
+  xhttp.open("GET", "data/"+onoma+".html", true);
   xhttp.send();
 }
 
@@ -105,7 +105,7 @@ function loadpage2(onoma,did) {
   }
   /*sendString = onoma.substring(1);*/
   /*xhttp.open("GET", "phpscripts/getsem.php?cid="+onoma+"", true);*/
-  xhttp.open("GET", "phpscripts/"+onoma+".html", true);
+  xhttp.open("GET", "data/"+onoma+".html", true);
   xhttp.send();
 }
 
@@ -136,7 +136,7 @@ function mainloader(onoma) {
   xhttp.send();
 }
 
-function mainmenu() {
+function mainmenuload() {
   var nanobar = new Nanobar();
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
